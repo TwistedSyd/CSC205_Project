@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33932709785073898}
   - component: {fileID: 23346826908042902}
   m_Layer: 0
-  m_Name: Bike
+  m_Name: RedBike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
