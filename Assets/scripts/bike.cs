@@ -23,11 +23,11 @@ public class bike : MonoBehaviour {
 
     public void turnLeft()
     {
-        //TODO
+        transform.Rotate(new Vector3(0, -0.8f, 0));
     }
 
     public void turnRight()
     {
-        //TODO
+        transform.Rotate(new Vector3(0, 0.8f, 0));
     }
 }

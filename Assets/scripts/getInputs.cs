@@ -22,12 +22,12 @@ public class getInputs : MonoBehaviour {
         }
 
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) {
-            cycle.moveForward();
+            cycle.turnLeft();
         }
 
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.E) || Input.GetKey(KeyCode.RightArrow))
         {
-            cycle.moveForward();
+            cycle.turnRight();
         }
 
     }
