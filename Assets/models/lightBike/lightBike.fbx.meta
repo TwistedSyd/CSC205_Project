@@ -1,20 +1,14 @@
 fileFormatVersion: 2
-guid: abe50752ac9c56b4889183cc17fbeb20
-timeCreated: 1490397819
+guid: 4eca811b35941e8479f94e349d8edc4a
+timeCreated: 1490402489
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Camera
-    100002: jt_Root_C
-    100004: Lamp
-    100006: //RootNode
-    400000: Camera
-    400002: jt_Root_C
-    400004: Lamp
-    400006: //RootNode
-    2300000: jt_Root_C
-    3300000: jt_Root_C
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: jt_Root_C
   materials:
     importMaterials: 1

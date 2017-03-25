@@ -6,7 +6,7 @@ public class bike : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        transform.forward = new Vector3(1, 0, 0);
+        //transform.forward = new Vector3(1, 0, 0);
 	}
 	
 	// Update is called once per frame
