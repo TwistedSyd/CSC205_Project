@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class bike : MonoBehaviour {
 
+    public float movementSpeed;
+
 	// Use this for initialization
 	void Start () {
-        //transform.forward = new Vector3(1, 0, 0);
+
 	}
 	
 	// Update is called once per frame
@@ -16,6 +18,16 @@ public class bike : MonoBehaviour {
 
     public void moveForward()
     {
-        transform.position += transform.forward * Time.deltaTime;
+        transform.position += transform.forward * movementSpeed * Time.deltaTime;
+    }
+
+    public void turnLeft()
+    {
+        //TODO
+    }
+
+    public void turnRight()
+    {
+        //TODO
     }
 }
