@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114781106485510224}
   - component: {fileID: 114476563912451580}
   m_Layer: 0
-  m_Name: lightBike
+  m_Name: redBike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
