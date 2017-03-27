@@ -5,6 +5,7 @@ using UnityEngine;
 public class bike : MonoBehaviour {
 
     public float movementSpeed;
+    public float turnSpeed;
 
 	// Use this for initialization
 	void Start () {
@@ -23,11 +24,11 @@ public class bike : MonoBehaviour {
 
     public void turnLeft()
     {
-        transform.Rotate(new Vector3(0, -0.8f, 0));
+        transform.Rotate(new Vector3(0, -0.8f * turnSpeed, 0));
     }
 
     public void turnRight()
     {
-        transform.Rotate(new Vector3(0, 0.8f, 0));
+        transform.Rotate(new Vector3(0, 0.8f * turnSpeed, 0));
     }
 }
