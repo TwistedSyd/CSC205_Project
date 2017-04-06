@@ -6,6 +6,8 @@ public class BallBehaviour : MonoBehaviour {
 
     public float forceApplied = 50;
     public AudioSource bounce;
+    public AudioSource goal;
+    public AudioSource explode;
     public Material blue;
     public Material red;
     public Material yellow;
@@ -30,6 +32,8 @@ public class BallBehaviour : MonoBehaviour {
     {
         if (other.name.Contains("Goal"))
         {
+            Instantiate(goal, transform.position, transform.rotation);
+            Instantiate(explode, transform.position, transform.rotation);
             StartCoroutine(splitMesh());
         }
     }
