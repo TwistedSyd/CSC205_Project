@@ -4,13 +4,13 @@ using System.Collections;
 public class cameraFollow : MonoBehaviour
 {
 
-    private GameObject player;
+    public GameObject player;
     private Quaternion lastRotation;
 
     void Start()
     {
 
-        player = GameObject.Find("redBike");
+        //player = GameObject.Find("redBike");
         lastRotation = player.transform.rotation;
 
     }

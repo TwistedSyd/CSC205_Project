@@ -7,14 +7,13 @@ public class bike : MonoBehaviour {
     public float movementSpeed;
     public float turnSpeed;
 
-	// Use this for initialization
+   	// Use this for initialization
 	void Start () {
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
 	}
 
     public void moveForward()
@@ -31,4 +30,10 @@ public class bike : MonoBehaviour {
     {
         transform.Rotate(new Vector3(0, 0.8f * turnSpeed, 0));
     }
+
+    void OnParticleCollision(GameObject other)
+    {
+        Debug.Log("Collision");
+    }
+
 }

@@ -5,18 +5,18 @@ using UnityEngine;
 public class getInputs : MonoBehaviour {
     
     private bike cycle;
+    float startTime;
 
 	// Use this for initialization
 	void Start () {
-
+        startTime = Time.time;
         cycle = GetComponentInParent<bike>();
-
-	}
+    }
 
     // Update is called once per frame
     void Update() {
 
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Comma) || Input.GetKey(KeyCode.UpArrow))
+        if ((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Comma) || Input.GetKey(KeyCode.UpArrow)) && Time.time > startTime + 4.5f)
         {
             cycle.moveForward();
         }

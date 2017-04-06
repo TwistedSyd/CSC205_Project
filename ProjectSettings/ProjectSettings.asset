@@ -453,8 +453,12 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Collab: 1
+    ErrorHub: 0
+    Hub: 0
     UNet: 1
-  cloudProjectId: d90345a9-d45b-4e63-b69b-ade795891d8a
+  cloudProjectId: feed9c74-7103-4fe8-963e-2446edf9c002
   projectName: CSC205
-  organizationId: dfrankcom
+  organizationId: twistedsyd
   cloudEnabled: 0

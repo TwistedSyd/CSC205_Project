@@ -4,4 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/scenes/menu.unity
+  - enabled: 1
+    path: Assets/scenes/select.unity
+  - enabled: 1
+    path: Assets/scenes/about.unity
+  - enabled: 1
+    path: Assets/scenes/gameOver.unity
+  - enabled: 1
+    path: Assets/scenes/main.unity
+  - enabled: 1
+    path: Assets/scenes/splitTwo.unity
+  - enabled: 1
+    path: Assets/scenes/splitThree.unity
+  - enabled: 1
+    path: Assets/scenes/splitFour.unity
